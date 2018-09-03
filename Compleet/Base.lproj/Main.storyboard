@@ -31,7 +31,14 @@
                             <outlet property="delegate" destination="hMq-P2-umy" id="hQO-AZ-hWh"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Compleet" id="Mno-Ol-5Gg"/>
+                    <navigationItem key="navigationItem" title="Compleet" id="Mno-Ol-5Gg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="h6h-Ju-nTZ">
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="hMq-P2-umy" id="d7D-b4-KIn"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wx1-6E-btI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
